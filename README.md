@@ -1,34 +1,31 @@
-# teste
+# Teste Uello
 
-## Project setup
+## Setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Desenvolvimento
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
+### Testes de unidade
 ```
 npm run test:unit
 ```
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
+### ESLint
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### JSON SERVER
+instale o json-server na sua máquina, seguindo as instruções do repositório abaixo.
+https://github.com/typicode/json-server
+
+Após instalar o json-server rode o seguinte comando na raiz do projeto
+```
+json-server db.json
+```
