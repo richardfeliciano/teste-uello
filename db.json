@@ -1,0 +1,44 @@
+{
+    "deliveries": [
+        {
+            "id": 1,
+            "number": 19,
+            "actual": 18,
+            "packages": 3,
+            "estimated": "14:45 - 16:58",
+            "steps": [
+                { "text": "Solicitação", "completed": true, "icon": "inbox" },
+                { "text": "Pedido em separação", "completed": true, "icon": "clock" },
+                { "text": "Motorista em trânsito", "completed": true, "icon": "car" },
+                { "text": "Pedido entregue", "completed": false, "icon": "check" }
+            ],
+            "customer": {
+                "name": "Dafit"
+            },
+            "driver": {
+                "name": "Vinicius Marques do Nascimento"
+            },
+            "status": {
+                "title": "SAIU PARA ENTREGA"
+            },
+            "addresses": [
+                { 
+                    "street": "Avenida Doutor Gastão Vidigal, 1132",
+                    "lat": -23.4690266,
+                    "long": -46.5365785
+                },
+                { 
+                    "street": "Vila Leopoldina - São Paulo - SP Apto - 1234",
+                    "lat": -23.4690109,
+                    "long": -46.6044297
+                }
+            ],
+            "history": [
+                { "title": "Solicitação recebida", "time": "14/08 - 22h41" },
+                { "title": "Pedido em separação", "time": "14/08 - 16h23" },
+                { "title": "Motorista está a caminho", "time": "14/08 - 16h23" }
+            ]
+        }
+    ],
+    "users": []
+}
